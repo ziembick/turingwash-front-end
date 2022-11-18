@@ -8,7 +8,22 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-header {
+
+.header-container,
+.header-container__lista{
     background-color: #BEF7FE; /* #BEF7FE */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
+li {
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
