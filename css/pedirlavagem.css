@@ -61,6 +61,8 @@ a {
 
 .client-list {
     padding-left: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .client-list__client-info{
@@ -76,20 +78,6 @@ a {
 .client-list__client-name{
     display: inline;
 }
-
-/*.client-list__client-score,
-.client-list__client-price {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.client-list__client-avaliation,
-.client-list__client-wash {
-    display: inline;
-    position: relative;
-}*/
 
 .client-list__client-infos {
     position: absolute;
