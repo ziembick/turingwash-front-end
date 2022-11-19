@@ -84,3 +84,11 @@ a {
     display: inline;
     padding-left: 250px;
 }
+
+.client-list__client-price {
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
