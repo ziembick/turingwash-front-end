@@ -94,4 +94,5 @@ a {
 .client-list__client-infos {
     position: absolute;
     display: inline;
+    padding-left: 250px;
 }
