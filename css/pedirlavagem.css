@@ -58,3 +58,8 @@ a {
 .ordination-container__options {
     padding-right: 70rem;
 }
+
+.client-list__picture {
+    height: 55px;
+    width: 55px;
+}
