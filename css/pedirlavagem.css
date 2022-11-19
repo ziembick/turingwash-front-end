@@ -63,3 +63,7 @@ a {
     height: 55px;
     width: 55px;
 }
+
+.client-list__client-name {
+    display: inline;
+}
