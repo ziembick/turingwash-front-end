@@ -25,7 +25,7 @@ a {
 }
 
 .main-content {
-    background-color: #EAF7FF;
+    background-color: #EAF7FF; /* #EAF7FF */
 }
 
 .main-content__title {
@@ -60,9 +60,13 @@ a {
 }
 
 .client-list {
+    background-color: #fff;
+    margin-left: 35px;
+    width: 500px;
     padding-left: 40px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 .client-list__client-info{
@@ -76,7 +80,9 @@ a {
 }
 
 .client-list__client-name{
+    position: relative;
     display: inline;
+    padding-left: 10px;
 }
 
 .client-list__client-infos {
