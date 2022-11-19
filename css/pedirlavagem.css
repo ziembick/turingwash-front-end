@@ -1,17 +1,13 @@
-html,
-body {
-  height: 100%;
-}
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
 
+/* header */
 
 .header-container,
 .header-container__lista{
-    background-color: #BEF7FE; /* #BEF7FE */
+    background-color: #BCF7FF; /* #BEF7FE */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,4 +22,12 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: #000;
+}
+
+.main-content {
+    background-color: #EAF7FF;
+}
+
+.main-content__title {
+    
 }
