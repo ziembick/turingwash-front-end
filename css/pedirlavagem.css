@@ -92,9 +92,10 @@ a {
 }
 
 .client-list__client-price {
-    position: relative;
+    /*position: relative;
     bottom: 15px;
     left: 10px;
     display: flex;
     justify-content: flex-end;
+    background-color: #DCFCFE;*/
 }
