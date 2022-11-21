@@ -10,7 +10,7 @@ body {
   width: 55px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 20px;
  
 }
 
@@ -19,6 +19,8 @@ body {
 .titulo {
   display: flex;
   flex-direction: row;
+  font-weight: bold;
+  padding-left: 5px;
 }
 
 .header-container,
@@ -32,6 +34,7 @@ body {
 
 li {
     padding-right: 40px;
+    font-size: 20px;
 }
 
 a {
