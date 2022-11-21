@@ -115,3 +115,24 @@ a {
 .client-list__client-price {
   background-color: #dcfcfe;
 }
+
+.client-list__client-avaliation {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+ 
+}
+
+
+
+.client-list__client-wash {
+  background-color: #8FF2FF;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.client-list__client-wash:hover{
+  background-color: #73e6f5
+}
