@@ -77,8 +77,8 @@ a {
 }
 
 .client-list__picture {
-  height: 55px;
-  width: 55px;
+  height: 100px;
+  width: 100px;
 }
 
 .client-list {
@@ -120,10 +120,15 @@ a {
   background-color: transparent;
   border: none;
   font-size: 18px;
- 
 }
 
-
+button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
 
 .client-list__client-wash {
   background-color: #8FF2FF;
@@ -135,4 +140,31 @@ a {
 
 .client-list__client-wash:hover{
   background-color: #73e6f5
+}
+
+footer {
+  background-color: #BCF7FF;
+}
+
+.footer-container__image {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.footer-container__turing-wash {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
