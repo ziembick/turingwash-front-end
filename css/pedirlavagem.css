@@ -146,13 +146,14 @@ footer {
   background-color: #BCF7FF;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 120px;
   padding-top: 25px;
 }
 
 .footer-container__image-titulo {
   padding-left: 10px;
   text-align: center;
+
 }
 
 .footer-container__image {
@@ -196,4 +197,12 @@ footer {
 
 .footer-container__instagram-rodape_logo {
   padding-right: 5px;
+}
+
+.footer-container__sobre,
+.footer-container__faq,
+.footer-container__contato,
+.footer-container__termo {
+  padding-bottom: 7px;
+  font-size: 15px;
 }
