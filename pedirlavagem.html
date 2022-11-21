@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pedir Lavagem</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/pedirlavagem.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="header-container">
-      <div class="header-container__titulo">
-        <img src="./img/car.png" alt="Logo Turinwash" class="header-container__image">
-        <p class="header-container__turing-wash">TuringWash</p>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedir Lavagem</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pedirlavagem.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-container__titulo">
+          <img
+            src="./img/car.png"
+            alt="Logo Turinwash"
+            class="header-container__image"
+          />
+          <p class="header-container__turing-wash">TuringWash</p>
+        </div>
         <nav>
           <ul class="header-container__lista">
             <li><a href="meuscarros.html">Meus Carros</a></li>
@@ -25,41 +32,53 @@
             <li><a href="#">Sair</a></li>
           </ul>
         </nav>
-    </div>  
-  </header>
-  <main class="main-content">
-    <h1 class="main-content__title">Lavadores disponíveis próximos de você...</h1>  
-    <section class="ordination-container">
-      <div class="ordination-container__options">
-        <span class="ordination-container__label">Lavar</span>
-        <select class="ordination-container__select-input">
-          <option value="ordination-container__description">Nissan Kicks</option>
-          <option value="ordination-container__description">Chevrolet Onix</option>
-        </select>
       </div>
-      <div>
-        <span class="ordination-container__label">Ordenar por</span>
-        <select class="ordination-container__select-input">
-          <option value="ordination-container__description">proximidade</option>
-          <option value="ordination-container__description">preço</option>
-        </select>
-      </div>
-    </section>
-    <article class="client-list">
-      <img src="img/person.png" alt="Foto do usuário" class="client-list__picture">
-        <h2 class="client-list__client-name">João Pereira</h2>
-      <div class="client-list__client-infos">
-        <div class="client-list__client">
-          <h3 class="client-list__client-score">Nota 4.5 (998 avaliações)</h3>
-          <h3 class="client-list__client-price">R$ 80</h3>
+    </header>
+    <main class="main-content">
+      <h1 class="main-content__title">
+        Lavadores disponíveis próximos de você...
+      </h1>
+      <section class="ordination-container">
+        <div class="ordination-container__options">
+          <span class="ordination-container__label">Lavar</span>
+          <select class="ordination-container__select-input">
+            <option value="ordination-container__description">
+              Nissan Kicks
+            </option>
+            <option value="ordination-container__description">
+              Chevrolet Onix
+            </option>
+          </select>
         </div>
-        <button class="client-list__client-avaliation">Ver Avaliações</button>
-        <button class="client-list__client-wash">Lavar meu Carro</button>
-      </div>
-    </article>
-  </main>
-  <footer>
-    <span>Sobre</span>
-  </footer>
-</body>
+        <div>
+          <span class="ordination-container__label">Ordenar por</span>
+          <select class="ordination-container__select-input">
+            <option value="ordination-container__description">
+              proximidade
+            </option>
+            <option value="ordination-container__description">preço</option>
+          </select>
+        </div>
+      </section>
+      <article class="client-list">
+        <img
+          src="img/person.png"
+          alt="Foto do usuário"
+          class="client-list__picture"
+        />
+        <h2 class="client-list__client-name">João Pereira</h2>
+        <div class="client-list__client-infos">
+          <div class="client-list__client">
+            <h3 class="client-list__client-score">Nota 4.5 (998 avaliações)</h3>
+            <h3 class="client-list__client-price">R$ 80</h3>
+          </div>
+          <button class="client-list__client-avaliation">Ver Avaliações</button>
+          <button class="client-list__client-wash">Lavar meu Carro</button>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <span>Sobre</span>
+    </footer>
+  </body>
 </html>
