@@ -144,27 +144,13 @@ button {
 
 footer {
   background-color: #BCF7FF;
+  display: flex;
+  justify-content: space-between;
 }
+
 
 .footer-container__image {
   height: 25px;
   width: 25px;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
 }
 
-.footer-container__turing-wash {
-  display: flex;
-  flex-direction: row;
-  font-weight: bold;
-  font-size: 10px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-}
-
-.footer-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
