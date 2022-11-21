@@ -5,6 +5,22 @@ body {
 
 /* header */
 
+.header-container__image {
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+ 
+}
+
+
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+}
+
 .header-container,
 .header-container__lista{
     background-color: #BCF7FF; /* #BEF7FE */
@@ -59,7 +75,13 @@ a {
     padding-right: 70rem;
 }
 
-.client-list {
+.client-list__picture {
+    height: 55px;
+    width: 55px;
+}
+
+
+/* .client-list {
     background-color: #fff;
     margin-left: 35px;
     width: 500px;
@@ -74,11 +96,6 @@ a {
 }
 
 
-.client-list__picture {
-    height: 55px;
-    width: 55px;
-}
-
 .client-list__client-name{
     position: relative;
     display: inline;
@@ -91,11 +108,13 @@ a {
     padding-left: 250px;
 }
 
+.client-list__client {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    
+} */
+
+
 .client-list__client-price {
-    /*position: relative;
-    bottom: 15px;
-    left: 10px;
-    display: flex;
-    justify-content: flex-end;
-    background-color: #DCFCFE;*/
-}
+    background-color: #DCFCFE;
+} 
