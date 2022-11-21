@@ -15,8 +15,7 @@ body {
 }
 
 
-
-.titulo {
+.header-container__turing-wash {
   display: flex;
   flex-direction: row;
   font-weight: bold;
