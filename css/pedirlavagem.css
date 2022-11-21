@@ -151,19 +151,24 @@ footer {
 }
 
 .footer-container__image-titulo {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
   padding-left: 10px;
   text-align: center;
 
 }
 
 .footer-container__image {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
 }
 
 .footer-container__turing-wash {
+  position: relative;
+  bottom: 8px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 
