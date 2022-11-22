@@ -5,6 +5,19 @@ body {
 
 /* header */
 
+.header-container__lista_sair {
+  position: relative;
+  right: 10px;
+  background-color: #8FF2FF;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.header-container__lista_sair:hover {
+  background-color: #62e4f5;
+}
+
+
 .header-container__image {
   height: 55px;
   width: 55px;
@@ -239,47 +252,59 @@ footer {
 
 /* MEUS CARROS */
 
+.main-content {
+  background-color: #EAF7FF;
+}
+
+
 .main-content__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 40px;
   margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: pink;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #fff;
   border-radius: 10px;
 }
 
 .main-content__nome {
   font-weight: bold;
   position: relative;
-  bottom: 15px;
-  right: 10px;
+  bottom: 25px;
+  right: 20px;
 }
 
 .main-content__ano {
   position: relative;
-  bottom: 13px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
 }
-
 
 .main-content__excluir-carro {
   padding: 10px;
   font-weight: bold;
   font-size: 15px;
-  background-color: #FF9B9B;
+  background-color: #ff9b9b;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   position: relative;
-  top: 25px;
+  top: 30px;
+  left: 20px;
+}
+
+.main-content__excluir-carro:hover {
+  background-color: #fa7e7e;
 }
 
 /* botão adicionar carro */
 .main-content__addCar {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 300px;
+  background-color: #EAF7FF;
 }
 
 .main-content__addCar_button {
