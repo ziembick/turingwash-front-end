@@ -88,7 +88,9 @@ a {
 .client-list {
   display: flex;
   justify-content: flex-start;
-  padding-left: 20px;
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .client-list__usuario {
@@ -97,18 +99,24 @@ a {
 }
 
 .client-list__client {
+  padding-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .client-list__client-infos {
-  position: relative;
-  left: 200px;
+  position: absolute;
+  right: 100px;
 }
+.client-list__client-name {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
 
 .client-list__client-score {
   position: relative;
-  left: 10px;
+  right: 10px;
   font-weight: bold;
   font-size: 15px;
 }
@@ -129,7 +137,7 @@ a {
 
 .client-list__botoes {
   position: relative;
-  top: 30px;
+  top: 20px;
 }
 
 /* .client-list {
