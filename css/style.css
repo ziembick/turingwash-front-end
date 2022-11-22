@@ -89,8 +89,10 @@ a {
   display: flex;
   justify-content: flex-start;
   padding-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  
 }
 
 .client-list__usuario {
@@ -139,46 +141,6 @@ a {
   position: relative;
   top: 20px;
 }
-
-/* .client-list {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  margin-left: 35px;
-  width: 800px;
-  padding-left: 40px;
-  border-radius: 5px;
-}
-
-.client-list__client-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.client-list__client-name {
-  position: relative;
-  bottom: 20px;
-  left: 5px;
-  padding-left: 10px;
-}
-
-.client-list__client-infos {
-  position: absolute;
-  display: inline;
-  padding-left: 250px;
-}
-
-.client-list__client {
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
-}
-
-.client-list__client-price {
-  background-color: #dcfcfe;
-  position: relative;
-  height: 20px;
-  width: 50px;
-} */
 
 /* botoes */
 

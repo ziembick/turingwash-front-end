@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Meus Carros</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="header-container">
-            <h2>TuringWash</h2>
-            <nav>
-                <ul>
-                    <li class="header-container__lista"><a href="meuscarros.html">Meus Carros</a></li>
-                    <li class="header-container__lista"><a href="./minhaslavagens.html">Minhas Lavagens</a></li>
-                    <li class="header-container__lista"><a href="./">Sair</a></li>
-                </ul>
-            </nav>
+      <div class="header-container">
+        <div class="header-container__titulo">
+          <img
+            src="./img/car.png"
+            alt="Logo Turinwash"
+            class="header-container__image"
+          />
+          <p class="header-container__turing-wash">TuringWash</p>
         </div>
+        <nav>
+          <ul class="header-container__lista">
+            <li><a href="meuscarros.html">Meus Carros</a></li>
+            <li><a href="minhaslavagens.html">Minhas Lavagens</a></li>
+            <li><a href="#">Sair</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <h1>Meus Carros</h1>
-        <hr/>
-        <h3>Nissan Kicks</h3>
-        <h4>2018</h4>
-        <button>Excluir Carro</button>
-        <h3>Chevrolet Onix</h3>
-        <h4>2015</h4>
-        <button>Excluir Carro</button>
-        <hr/>
-        <button>Adicionar Carro</button>
+      <h1>Meus Carros</h1>
+      <hr />
+      <h3>Nissan Kicks</h3>
+      <h4>2018</h4>
+      <button>Excluir Carro</button>
+      <h3>Chevrolet Onix</h3>
+      <h4>2015</h4>
+      <button>Excluir Carro</button>
+      <hr />
+      <button>Adicionar Carro</button>
     </main>
     <footer>
-      <h3>TuringWash</h3>
-      <h4>Sobre</h4>
-      <h4>FAQ</h4>
-      <h4>Contato</h4>
-      <h4>Termos de uso</h4>
-      <img src="https://cdn-icons-png.flaticon.com/512/3661/3661391.png" alt="Instagram Logo">
-      <span>turingwash</span>
-      <h5>2022 TuringWash. Todos os direitos reservados</h5>
-    </footer>
-</body>
+        <div class="footer-container__image-titulo">
+          <img
+            src="./img/car.png"
+            alt="Logo Turinwash"
+            class="footer-container__image"
+          />
+          <p class="footer-container__turing-wash">TuringWash</p>
+        </div>
+        <div class="footer-container">
+          <p class="footer-container__sobre">Sobre</p>
+          <p class="footer-container__faq">FAQ</p>
+          <p class="footer-container__contato">Contato</p>
+          <p class="footer-container__termo">Termos de uso</p>
+        </div>
+        <div class="footer-container__instagram-rodape">
+          <div class="footer-container__instagram">
+            <img
+              src="img/ig.png"
+              alt="Instagram Logo"
+              class="footer-container__instagram-rodape_logo"
+            />
+            <span class="footer-container__instagram-rodape_arroba"
+              >@turingwash</span
+            >
+          </div>
+          <p class="footer-container__instagram-rodape_direitos">
+            2022. TuringWash. Todos os direitos reservados
+          </p>
+        </div>
+      </footer>
+  </body>
 </html>
