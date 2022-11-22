@@ -41,6 +41,8 @@ a {
   color: #000;
 }
 
+/* main */
+
 .main-content {
   background-color: #eaf7ff; /* #EAF7FF */
 }
@@ -76,28 +78,63 @@ a {
   padding-right: 70rem;
 }
 
+/* client infos */
+
 .client-list__picture {
   height: 100px;
   width: 100px;
 }
 
 .client-list {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.client-list__usuario {
+  display: flex;
+  align-items: flex-start;
+}
+
+.client-list__client {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-list__client-infos {
+  position: relative;
+  left: 200px;
+}
+
+.client-list__client-score {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.client-list__client-price {
+  background-color: #dcfcfe;
+}
+/* .client-list {
   background-color: #fff;
-  margin-left: 35px;
-  width: 500px;
-  padding-left: 40px;
   display: flex;
   align-items: center;
+  margin-left: 35px;
+  width: 800px;
+  padding-left: 40px;
   border-radius: 5px;
 }
 
 .client-list__client-info {
-  display: inline;
+  display: flex;
+  justify-content: space-between;
 }
 
 .client-list__client-name {
   position: relative;
-  display: inline;
+  bottom: 20px;
+  left: 5px;
   padding-left: 10px;
 }
 
@@ -114,11 +151,17 @@ a {
 
 .client-list__client-price {
   background-color: #dcfcfe;
-}
+  position: relative;
+  height: 20px;
+  width: 50px;
+} */
+
+/* botoes */
 
 .client-list__client-avaliation {
   background-color: transparent;
   border: none;
+  padding-top: 10px;
   font-size: 18px;
 }
 
@@ -141,6 +184,9 @@ button {
 .client-list__client-wash:hover{
   background-color: #73e6f5
 }
+
+/* footer */
+
 
 footer {
   background-color: #BCF7FF;
