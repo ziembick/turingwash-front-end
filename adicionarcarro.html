@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
     <title>Adicionar Carro</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="caixa">
-            
+      <div class="header-container">
+        <div class="header-container__titulo">
+          <img
+            src="./img/car.png"
+            alt="Logo Turinwash"
+            class="header-container__image"
+          />
+          <p class="header-container__turing-wash">TuringWash</p>
         </div>
+        <nav>
+          <ul class="header-container__lista">
+            <li><a href="meuscarros.html">Meus Carros</a></li>
+            <li><a href="minhaslavagens.html">Minhas Lavagens</a></li>
+            <li class="header-container__lista_sair"><a href="#">Sair</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-
+    <main class="main-content">
+      <h1 class="main-content__title">Adicionar Carro</h1>
+      <section>
+        <h2>Fabricante</h2>
+        <select name="" id=""></select>
+        <h2>Modelo</h2>
+        <select name="" id=""></select>
+        <h2>Ano</h2>
+        <select name="" id=""></select>
+      </section>
     </main>
     <footer>
-
+      <div class="footer-container__image-titulo">
+        <img
+          src="./img/car.png"
+          alt="Logo Turinwash"
+          class="footer-container__image"
+        />
+        <p class="footer-container__turing-wash">TuringWash</p>
+      </div>
+      <div class="footer-container">
+        <p class="footer-container__sobre">Sobre</p>
+        <p class="footer-container__faq">FAQ</p>
+        <p class="footer-container__contato">Contato</p>
+        <p class="footer-container__termo">Termos de uso</p>
+      </div>
+      <div class="footer-container__instagram-rodape">
+        <div class="footer-container__instagram">
+          <img
+            src="img/ig.png"
+            alt="Instagram Logo"
+            class="footer-container__instagram-rodape_logo"
+          />
+          <span class="footer-container__instagram-rodape_arroba"
+            >@turingwash</span
+          >
+        </div>
+        <p class="footer-container__instagram-rodape_direitos">
+          2022. TuringWash. Todos os direitos reservados
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
