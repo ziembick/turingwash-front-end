@@ -239,13 +239,40 @@ footer {
 
 /* MEUS CARROS */
 
-.addcar-div {
+.main-content__section {
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 36px;
+  background-color: pink;
+}
+
+.main-content__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.main-content__excluir-carro {
+  position: relative;
+  top: 20px;
+}
+
+/* botão adicionar carro */
+.main-content__addCar {
   display: flex;
   justify-content: center;
 }
 
-.addcar{
-  background-color: #8FF2FF;
+.main-content__addCar_button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #8ff2ff;
   border: none;
   border-radius: 5px;
+  padding: 10px;
+}
+
+.main-content__addCar_button:hover {
+  background-color: #5ce5f7;
 }
