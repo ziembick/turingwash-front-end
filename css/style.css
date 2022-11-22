@@ -92,7 +92,6 @@ a {
   margin: 20px;
   background-color: #fff;
   border-radius: 20px;
-  
 }
 
 .client-list__usuario {
@@ -115,7 +114,6 @@ a {
   font-weight: bold;
 }
 
-
 .client-list__client-score {
   position: relative;
   right: 10px;
@@ -134,7 +132,6 @@ a {
   width: 59px;
   background-color: #dcfcfe;
   font-weight: bold;
-
 }
 
 .client-list__botoes {
@@ -160,22 +157,21 @@ button {
 }
 
 .client-list__client-wash {
-  background-color: #8FF2FF;
+  background-color: #8ff2ff;
   border: none;
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.client-list__client-wash:hover{
-  background-color: #73e6f5
+.client-list__client-wash:hover {
+  background-color: #73e6f5;
 }
 
 /* footer */
 
-
 footer {
-  background-color: #BCF7FF;
+  background-color: #bcf7ff;
   display: flex;
   justify-content: space-between;
   height: 120px;
@@ -188,7 +184,6 @@ footer {
   left: 10px;
   padding-left: 10px;
   text-align: center;
-
 }
 
 .footer-container__image {
@@ -203,14 +198,12 @@ footer {
   font-size: 12px;
 }
 
-
 .footer-container__instagram-rodape_arroba {
   display: flex;
   justify-content: flex-end;
   font-size: 15px;
   padding-right: 10px;
 }
-
 
 .footer-container__instagram-rodape_direitos {
   position: relative;
@@ -242,4 +235,17 @@ footer {
 .footer-container__termo {
   padding-bottom: 7px;
   font-size: 15px;
+}
+
+/* MEUS CARROS */
+
+.addcar-div {
+  display: flex;
+  justify-content: center;
+}
+
+.addcar{
+  background-color: #8FF2FF;
+  border: none;
+  border-radius: 5px;
 }
