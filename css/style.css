@@ -240,22 +240,40 @@ footer {
 /* MEUS CARROS */
 
 .main-content__section {
-  margin-top: 30px;
-  margin-left: 35px;
-  margin-right: 36px;
-  background-color: pink;
-}
-
-.main-content__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: pink;
+  border-radius: 10px;
 }
 
-.main-content__excluir-carro {
+.main-content__nome {
+  font-weight: bold;
   position: relative;
-  top: 20px;
+  bottom: 15px;
+  right: 10px;
+}
+
+.main-content__ano {
+  position: relative;
+  bottom: 13px;
+  right: 10px;
+}
+
+
+.main-content__excluir-carro {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #FF9B9B;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 25px;
 }
 
 /* botão adicionar carro */
