@@ -321,3 +321,16 @@ footer {
 .main-content__addCar_button:hover {
   background-color: #5ce5f7;
 }
+
+
+/* ADICIONAR CARRO */
+
+.section-container {
+  
+  padding: 40px;
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: pink;
+  border-radius: 10px;
+}
