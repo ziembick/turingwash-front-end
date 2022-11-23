@@ -334,3 +334,16 @@ footer {
   background-color: pink;
   border-radius: 10px;
 }
+
+.section-container__select_fabricante,
+.section-container__select_modelo {
+  width: 248px;
+  height: 19px;
+  border-radius: 10px;
+}
+
+.section-container__select_ano {
+  width: 69px;
+  height: 19px;
+  border-radius: 10px;
+}
