@@ -311,11 +311,11 @@ footer {
 
 .main-content__addCar_button {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   background-color: #8ff2ff;
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px;
 }
 
 .main-content__addCar_button:hover {
@@ -326,24 +326,36 @@ footer {
 /* ADICIONAR CARRO */
 
 .section-container {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 40px;
+  padding-bottom: 40px;
   margin-top: 30px;
   margin-left: 400px;
   margin-right: 400px;
-  background-color: pink;
+  background-color: #fff;
   border-radius: 10px;
 }
+
+.section-container__fabricante,
+.section-container__modelo,
+.section-container__ano {
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
 
 .section-container__select_fabricante,
 .section-container__select_modelo {
   width: 248px;
-  height: 19px;
+  height: 22px;
   border-radius: 10px;
 }
 
 .section-container__select_ano {
   width: 69px;
-  height: 19px;
+  height: 22px;
   border-radius: 10px;
 }
