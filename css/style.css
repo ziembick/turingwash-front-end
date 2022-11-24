@@ -375,10 +375,6 @@ footer {
   margin-bottom: 20px;
 }
 
-
-
-.article__money {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+.article__cliente {
+  padding-right: 30px;
 }
