@@ -359,3 +359,24 @@ footer {
   height: 22px;
   border-radius: 10px;
 }
+
+
+
+/* MINHAS LAVAGENS */
+
+
+.main-content__article {
+  background-color: pink;
+  margin: 30px;
+}
+
+.div1 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.article__money {
+  display: flex;
+  justify-content: flex-end;
+}
