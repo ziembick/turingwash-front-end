@@ -375,6 +375,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.article__cliente {
+.article__cliente,
+.article__veiculo {
   padding-right: 30px;
 }
