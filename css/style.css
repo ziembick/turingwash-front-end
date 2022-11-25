@@ -370,22 +370,18 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: pink;
+  border-radius: 10px;
   padding: 30px;
-  margin-right: 350px;
-  margin-left: 350px;
+  margin-right: 500px;
+  margin-left: 500px;
   margin-bottom: 20px;
 }
 
-.article__cliente,
-.article__veiculo {
-  padding-right: 30px;
-}
 
 .article__infos {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  
 }
 
 .article__cliente-nome {
@@ -402,10 +398,16 @@ footer {
   position: relative;
   bottom: 30px;
   left: 30px;
+  border-radius: 0 10px 0 0;
 }
 
 .article__infos-data {
   position: relative;
   top: 20px;
-  left: 10px;
+  left: 20px;
+}
+
+.article__veiculo {
+  position: relative;
+  right: 50px;
 }
