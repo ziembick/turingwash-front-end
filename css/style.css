@@ -371,8 +371,8 @@ footer {
   justify-content: space-between;
   background-color: pink;
   padding: 30px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 350px;
+  margin-left: 350px;
   margin-bottom: 20px;
 }
 
@@ -383,8 +383,9 @@ footer {
 
 .article__infos {
   display: flex;
-  flex-direction: column-reverse;
   align-items: flex-end;
+  flex-direction: column;
+  
 }
 
 .article__cliente-nome {
@@ -393,4 +394,18 @@ footer {
 
 .article__veiculo-modelo {
   font-weight: 700;
+}
+
+.article__infos-money {
+  background-color: #62e4f5;
+  padding: 10px;
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+
+.article__infos-data {
+  position: relative;
+  top: 20px;
+  left: 10px;
 }
