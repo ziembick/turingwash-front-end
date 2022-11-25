@@ -386,3 +386,11 @@ footer {
   flex-direction: column-reverse;
   align-items: flex-end;
 }
+
+.article__cliente-nome {
+  font-weight: 700;
+}
+
+.article__veiculo-modelo {
+  font-weight: 700;
+}
