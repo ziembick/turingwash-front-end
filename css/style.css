@@ -379,3 +379,9 @@ footer {
 .article__veiculo {
   padding-right: 30px;
 }
+
+.article__infos {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
