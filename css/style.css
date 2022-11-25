@@ -368,6 +368,7 @@ footer {
 .main-content__article {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: pink;
   padding: 30px;
   margin-right: 200px;
