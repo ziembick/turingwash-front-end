@@ -375,7 +375,7 @@ footer {
   margin-top: 100px;
   margin-right: 500px;
   margin-left: 500px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 
@@ -395,6 +395,7 @@ footer {
 
 .article__infos-money {
   background-color: #62e4f5;
+  font-weight: bold;
   padding: 10px;
   position: relative;
   bottom: 30px;
