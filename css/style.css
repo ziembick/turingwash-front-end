@@ -63,7 +63,7 @@ a {
 .main-content__title {
   display: flex;
   justify-content: center;
-  padding: 26px 93px 23px 93px;
+  padding: 80px 93px 23px 93px;
   font-weight: bold;
   font-size: 20px;
 }
