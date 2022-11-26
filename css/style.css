@@ -364,6 +364,12 @@ footer {
 
 /* MINHAS LAVAGENS */
 
+.main-content__tudo {
+  padding-bottom: 300px;
+  background-color: #EAF7FF
+}
+
+
 
 .main-content__article {
   display: flex;
@@ -372,10 +378,9 @@ footer {
   background-color: #fff;
   border-radius: 10px;
   padding: 30px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 500px;
   margin-left: 500px;
-  margin-bottom: 100px;
 }
 
 
