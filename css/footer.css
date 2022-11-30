@@ -78,5 +78,39 @@ footer {
     position: relative;
     bottom: 40px;
   }
+
+  .footer-container {
+    padding-left: 24px;
+  }
+
+  .footer-container__instagram-rodape_direitos {
+    position: relative;
+    top: 28px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 6px;
+    padding-top: 30px;
+    padding-right: 10px;
+  }
   
+  .footer-container__instagram {
+    position: relative;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 16px;
+  }
+  
+  .footer-container__instagram-rodape_logo {
+    padding-right: 5px;
+    height: 10px;
+    width: 10px;
+  }
+
+  .footer-container__instagram-rodape_arroba {
+   font-size: 8px;
+  }
 }
