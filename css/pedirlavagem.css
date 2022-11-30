@@ -91,7 +91,6 @@
   font-size: 18px;
 }
 
-
 .client-list__client-wash {
   background-color: #8ff2ff;
   border: none;
@@ -104,10 +103,20 @@
   background-color: #73e6f5;
 }
 
-
 @media screen and (max-width: 768px) {
-    .ordination-container__options {
-        padding-right: 100px
-      }
-      
+
+  .ordination-container__label,
+  .ordination-container__select-input {
+    font-size: 8px;
+  }
+
+  .ordination-container__options {
+    padding: 0;;
+    height: 100%;
+  } 
+
+  .ordination-container {
+    position: relative;
+    right: 15px;
+  }
 }
