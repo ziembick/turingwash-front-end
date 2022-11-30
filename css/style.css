@@ -9,7 +9,8 @@ body {
 /* main */
 
 .main-content {
-  background-color: #eaf7ff; /* #EAF7FF */
+  background-color: #EAF7FF;
+  padding-bottom: 200px;  
 }
 
 .main-content__title {
@@ -40,7 +41,7 @@ body {
 }
 
 .ordination-container__options {
-  padding-right: 70rem;
+  padding-right: 30em;
 }
 
 /* client infos */
@@ -134,10 +135,6 @@ button {
 }
 
 /* MEUS CARROS */
-
-.main-content {
-  background-color: #EAF7FF;
-}
 
 
 .main-content__section {
