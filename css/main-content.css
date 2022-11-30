@@ -1,13 +1,22 @@
 .main-content {
-    background-color: #EAF7FF;
-    padding-bottom: 200px;  
-  }
-  
+  background-color: #eaf7ff;
+  padding-bottom: 200px;
+}
+
+.main-content__title {
+  display: flex;
+  justify-content: center;
+  padding: 80px 93px 23px 93px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
   .main-content__title {
     display: flex;
     justify-content: center;
-    padding: 80px 93px 23px 93px;
+    padding: 24px 0 18px 0;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 12px;
   }
-  
+}

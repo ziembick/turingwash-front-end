@@ -103,3 +103,11 @@
 .client-list__client-wash:hover {
   background-color: #73e6f5;
 }
+
+
+@media screen and (max-width: 768px) {
+    .ordination-container__options {
+        padding-right: 100px
+      }
+      
+}
