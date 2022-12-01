@@ -45,3 +45,29 @@ a {
   font-weight: bold;
   color: #000;
 }
+
+@media screen and (max-width: 768px) {
+  li {
+    position: relative;
+    left: 10px;
+    padding-right: 20px;
+    font-size: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .header-container__image {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .header-container__turing-wash {
+    font-size: 10px;
+  }
+}
