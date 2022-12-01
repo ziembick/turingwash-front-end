@@ -104,19 +104,53 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .ordination-container__label,
   .ordination-container__select-input {
     font-size: 8px;
   }
 
   .ordination-container__options {
-    padding: 0;;
+    padding: 0;
     height: 100%;
-  } 
+  }
 
   .ordination-container {
     position: relative;
-    right: 15px;
+    right: 20px;
+  }
+
+  .client-list__picture {
+    height: 55px;
+    width: 55px;
+  }
+
+  .client-list__client-name {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  .client-list {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .client-list__usuario {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .client-list__client-infos {
+    position: absolute;
+    right: 10px;
+  }
+
+  .client-list__client-score,
+  .client-list__client-price,
+  .client-list__client-avaliation,
+  .client-list__client-wash {
+    font-size: 10px;
   }
 }
