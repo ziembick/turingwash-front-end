@@ -128,6 +128,7 @@
     font-size: 10px;
     padding-bottom: 10px;
   }
+
   .client-list {
     display: flex;
     justify-content: flex-start;
@@ -141,7 +142,7 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-  
+
   .client-list__client-infos {
     position: absolute;
     right: 10px;
@@ -153,4 +154,6 @@
   .client-list__client-wash {
     font-size: 10px;
   }
+
+ 
 }

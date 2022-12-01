@@ -77,6 +77,7 @@ footer {
   .footer-container__instagram-rodape {
     position: relative;
     bottom: 40px;
+    right: 10px;
   }
 
   .footer-container {
