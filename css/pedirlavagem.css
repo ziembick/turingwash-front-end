@@ -73,8 +73,8 @@
   border-radius: 0 10px 0 0;
   height: 27px;
   width: 59px;
-  background-color: #dcfcfe;
   font-weight: bold;
+  background-color: #dcfcfe;
 }
 
 .client-list__botoes {
@@ -155,5 +155,8 @@
     font-size: 10px;
   }
 
- 
+  .client-list__client-price {
+    height: 20px;
+    width: 33px;
+  }
 }
