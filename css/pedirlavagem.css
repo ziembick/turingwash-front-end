@@ -67,6 +67,7 @@
 .client-list__client-price {
   position: relative;
   bottom: 5px;
+  left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +162,18 @@
   }
 
   .client-list__client-price {
+    position: relative;
+    top: 10px;
+    left: 80px;
     height: 20px;
     width: 33px;
+  }
+
+  .client-list__client {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    left: 60px;
   }
 }
