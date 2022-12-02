@@ -25,12 +25,18 @@
           />
           <p class="header-container__turing-wash">TuringWash</p>
         </div>
-        <nav>
-          <ul class="header-container__lista">
-            <li><a href="meuscarros.html">Meus Carros</a></li>
-            <li><a href="minhaslavagens.html">Minhas Lavagens</a></li>
-            <li class="header-container__lista_sair"><a href="#">Sair</a></li>
-          </ul>
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="header-container__lista" id="menu">
+              <a href="meuscarros.html"><li>Meus carros</li></a>
+              <a href="minhaslavagens.html"><li>Minhas Lavagens</li></a>
+              <a href="#"><li class="header-container__lista_sair">Sair</li></a>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
