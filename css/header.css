@@ -1,52 +1,63 @@
-body,
-ul {
-  margin: 0px;
-  padding: 0px;
+body {
+  margin: 0;
   font-family: "Inter", sans-serif;
 }
 
-li {
-  margin-left: 20px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-#logo {
-  font-size: 15px;
-  font-weight: bold;
+.header {
   position: relative;
-  bottom: 10px;
-}
-
-#header {
-  box-sizing: border-box;
-  height: 70px;
-  padding: 1rem;
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background: #bcf7ff;
+  transition: 0.3s;
 }
 
-#menu {
+.logo a {
+  display: block;
+}
+
+.logo a img {
+  display: block;
+  width: 100%;
+}
+
+.navigation {
   display: flex;
-  list-style: none;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#menu a {
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: 0.5s;
+  gap: 0.5rem;
+  padding-right: 15px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  color: #000;
+  text-decoration: none;
   display: block;
   padding: 0.3rem;
+  font-size: 18px;
+  line-height: 1;
+  transition: 0.3s;
 }
+
+.menu li a:hover {
+  box-shadow: 0 -5px 0px #fff inset,
+  500px 0 0 rgba(255,255,255,0.03) inset;
+  padding: 15px;
+}
+
 
 .header-container__image {
   height: 55px;
@@ -59,19 +70,27 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.turingText {
+  position: relative;
+  bottom: 10px;
 }
 
 .header-container__lista_sair {
   background-color: #8ff2ff;
   border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
-
-
-
-
-
-
-
 
 
 
