@@ -44,7 +44,7 @@
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
 
   z-index: 1;
@@ -81,12 +81,12 @@
 
 #menu {
   position: absolute;
-  width: 100px;
+  width: 100%;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: #bcf7ff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
@@ -97,6 +97,7 @@
 }
 
 #menu li {
+  position: relative;
   padding: 10px 0;
   font-size: 12px;
   font-weight: bold;
