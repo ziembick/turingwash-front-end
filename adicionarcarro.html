@@ -15,29 +15,23 @@
     <title>Adicionar Carro</title>
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <div class="header-container__titulo">
-          <img
-            src="./img/car.png"
-            alt="Logo Turinwash"
-            class="header-container__image"
-          />
-          <p class="header-container__turing-wash">TuringWash</p>
-        </div>
-        <nav role="navigation">
-          <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="header-container__lista" id="menu">
-              <a href="meuscarros.html"><li>Meus carros</li></a>
-              <a href="minhaslavagens.html"><li>Minhas Lavagens</li></a>
-              <a href="#"><li class="header-container__lista_sair">Sair</li></a>
-            </ul>
-          </div>
-        </nav>
+    <header class="header">
+      <div class="header_container_logo">
+        <img
+          class="header-container__image"
+          src="./img/car.png"
+          alt="Logo TuringWash"
+        />
+        <a class="turingText" id="logo" href="">TuringWash</a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="toggle-menu">
+        <div class="hamburguer"></div>
+        <ul class="menu">
+          <li><a href="#">Meus Carros</a></li>
+          <li><a href="#">Minhas Lavagens</a></li>
+          <li class="header-container__lista_sair"><a href="#">Sair</a></li>
+        </ul>
       </div>
     </header>
     <main class="main-content">
