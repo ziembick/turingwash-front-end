@@ -4,55 +4,12 @@
 @import url('./pedirlavagem.css');
 @import url('./main-content.css');
 @import url('./meuscarros.css');
+@import url('./addcar.css');
 
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-
-/* MEUS CARROS */
-
-
-
-
-/* ADICIONAR CARRO */
-
-.section-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 40px;
-  padding-bottom: 40px;
-  margin-top: 30px;
-  margin-left: 400px;
-  margin-right: 400px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-.section-container__fabricante,
-.section-container__modelo,
-.section-container__ano {
-  font-weight: bold;
-  padding-bottom: 8px;
-  padding-top: 8px;
-}
-
-
-.section-container__select_fabricante,
-.section-container__select_modelo {
-  width: 248px;
-  height: 22px;
-  border-radius: 10px;
-}
-
-.section-container__select_ano {
-  width: 69px;
-  height: 22px;
-  border-radius: 10px;
-}
-
-
 
 /* MINHAS LAVAGENS */
 
