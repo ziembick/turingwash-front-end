@@ -1,0 +1,56 @@
+
+.main-content__tudo {
+    padding-bottom: 300px;
+    background-color: #EAF7FF
+  }
+  
+  
+  
+  .main-content__article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  
+  
+  .article__infos {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  .article__cliente-nome {
+    font-weight: 700;
+  }
+  
+  .article__veiculo-modelo {
+    font-weight: 700;
+  }
+  
+  .article__infos-money {
+    background-color: #62e4f5;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 0 10px 0 0;
+  }
+  
+  .article__infos-data {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .article__veiculo {
+    position: relative;
+    right: 50px;
+  }
+  
