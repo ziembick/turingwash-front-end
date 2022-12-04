@@ -1,0 +1,63 @@
+.main-content__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .main-content__nome {
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+  }
+  
+  .main-content__ano {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .main-content__excluir-carro {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ff9b9b;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+  }
+  
+  .main-content__excluir-carro:hover {
+    background-color: #fa7e7e;
+  }
+  
+  /* botão adicionar carro */
+  .main-content__addCar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    background-color: #EAF7FF;
+  }
+  
+  .main-content__addCar_button {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #8ff2ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .main-content__addCar_button:hover {
+    background-color: #5ce5f7;
+  }
+  
