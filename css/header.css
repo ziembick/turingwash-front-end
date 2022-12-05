@@ -28,7 +28,8 @@ body {
   align-items: center;
 }
 
-.menu {
+.menu,
+.header-container__lista_sair {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +43,8 @@ body {
   list-style: none;
 }
 
-.menu li a {
+.menu li a,
+.header-container__lista_sair {
   color: #000;
   text-decoration: none;
   display: block;
@@ -55,6 +57,10 @@ body {
 .menu li a:hover {
   box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255, 255, 255, 0.03) inset;
   padding: 8px;
+}
+
+.header-container__lista_sair:hover {
+  background-color: #00e1ff;
 }
 
 .header-container__image {
@@ -72,7 +78,8 @@ body {
   padding-left: 10px;
 }
 
-a {
+a,
+.header-container__lista_sair {
   text-decoration: none;
   color: black;
   font-weight: bold;
