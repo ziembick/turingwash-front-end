@@ -11,3 +11,8 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+}
