@@ -19,6 +19,7 @@ function logar () {
 
     if(login == 'admin' && senha == 'admin'){
         alert('Sucesso');
+        createProductButton.textContent = "Sair"
     }else {
         alert('Usuário ou senha inválidas')
     }
