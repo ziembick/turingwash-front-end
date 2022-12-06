@@ -15,3 +15,12 @@ cancelButton.addEventListener("click", () => dialog.close());
 const inputs = document.querySelectorAll("input");
 
 const saveButton = document.querySelector("#save");
+
+function logar () {
+    const login = document.getElementById('login').value;
+    const senha = document.getElementById('senha').value;
+
+    if(login == 'admin' && senha == 'admin'){
+        alert('Sucesso');
+    }
+}
