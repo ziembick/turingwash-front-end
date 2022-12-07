@@ -30,10 +30,20 @@
         <ul class="menu">
           <li><a href="meuscarros.html">Meus Carros</a></li>
           <li><a href="minhaslavagens.html">Minhas Lavagens</a></li>
-          <li class="header-container__lista_sair"><a href="pedirlavagem.html">Sair</a></li>
+          <button class="header-container__lista_sair" id="create-product"> Entrar</button>
         </ul>
       </div>
     </header>
+    <section class="create-product">
+      <dialog class="create-product_dialog">
+        <form method="dialog" class="create-product_form">
+          <h3 class="login_title">Login</h3>
+          <input type="text" placeholder="Login" id="login">
+          <input type="password" placeholder="Senha" id="senha">
+          <input type="submit" onclick="logar()">
+        </form>
+      </dialog>
+    </section>
     <main class="main-content__tudo">
       <h1 class="main-content__title">Minhas Lavagens</h1>
       <article class="main-content__article">
