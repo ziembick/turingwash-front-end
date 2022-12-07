@@ -1,33 +1,4 @@
-.card {
-  background-color: var(--white);
-  border-radius: 10px;
-  padding: 4px;
-}
 
-.container {
-  padding: 0 12px;
-}
-
-.container-header {
-  display: flex;
-  justify-content: center;
-  padding: 24px 0 44px 0;
-}
-
-.container-header__title {
-  font-weight: 700;
-  font-size: 0.7em;
-}
-
-
-
-
-
-
-
-
-
-/* 
 .main-content__tudo {
     padding-bottom: 300px;
     background-color: #EAF7FF
@@ -82,4 +53,4 @@
     position: relative;
     right: 50px;
   }
-   */
+  
