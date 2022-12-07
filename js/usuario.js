@@ -1,6 +1,5 @@
 const createProductButton = document.querySelector("#create-product");
 const dialog = document.querySelector(".create-product_dialog");
-const cancelButton = document.querySelector("#cancel");
 
 const openModal = () => dialog.showModal();
 
@@ -18,10 +17,11 @@ function logar () {
     form.reset();
 
     if(login == 'admin' && senha == 'admin'){
-        alert('Sucesso');
+        alert('Login efetuado com sucesso!');
         createProductButton.textContent = "Sair"
     }else {
         alert('Usuário ou senha inválidas')
     }
 }
+
 
