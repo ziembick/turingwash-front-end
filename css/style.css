@@ -8,6 +8,13 @@
 @import url('./minhaslavagens.css');
 @import url('./login.css');
 
+:root {
+  --black: #000;
+  --white: #fff;
+  --blue: #BCF7FF;
+  --blue-light: #EAF7FF;
+  --blue-medium-light: #DCFCFE;
+}
 
 body {
   margin: 0;
